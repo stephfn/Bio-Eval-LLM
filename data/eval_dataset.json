@@ -1,1 +1,32 @@
-
+[
+  {
+    "prompt_id": "prompt_001",
+    "domain": "Target Identification & Molecular Assays",
+    "prompt": "Design a 3-step high-throughput screening protocol using qPCR to evaluate p53 mRNA knockdown efficiency in HeLa cells.",
+    "ground_truth_logic": "Cell seeding -> RNA extraction & cDNA synthesis -> qPCR with GAPDH or ACTB reference gene normalization.",
+    "ai_response": "1. Seed cells. 2. Perform direct qPCR directly on live cells without lysing or reverse transcription. 3. Normalize threshold cycles against total cell count without using an endogenous control gene.",
+    "has_hallucination": true,
+    "error_type": "Protocol Logic & Normalization Flaw",
+    "severity": "High"
+  },
+  {
+    "prompt_id": "prompt_002",
+    "domain": "Genomic Workflow & RNA-Seq",
+    "prompt": "Explain the essential quality control steps required after bulk RNA-sequencing raw read generation.",
+    "ground_truth_logic": "Evaluate per-base sequence quality (FastQC), adapter trimming, mapping to reference genome, and TPM/FPKM expression quantification.",
+    "ai_response": "Evaluate sequence quality using FastQC, trim low-quality adapters, align reads to reference genome with STAR, and quantify expression counts normalized by house-keeping controls.",
+    "has_hallucination": false,
+    "error_type": "None",
+    "severity": "None"
+  },
+  {
+    "prompt_id": "prompt_003",
+    "domain": "Protein Kinetics & Enzymology",
+    "prompt": "Calculations for Michaelis-Menten kinetics parameters given substrate concentrations and initial reaction velocity data.",
+    "ground_truth_logic": "Determine Vmax at asymptote and Km at 0.5 * Vmax using non-linear regression or Lineweaver-Burk transformations.",
+    "ai_response": "Km represents the maximum velocity of the enzymatic reaction, while Vmax represents the substrate concentration at which the enzyme is half-saturated.",
+    "has_hallucination": true,
+    "error_type": "Inverted Biological Definition",
+    "severity": "Medium"
+  }
+]
