@@ -30,6 +30,7 @@ Bio-Eval-LLM/
 ├── .gitignore                     # Git tracking exclusions
 ├── requirements.txt               # Dependencies (pandas, scikit-learn, etc.)
 └── README.md                      # Project documentation
+```
 
 ## Technical Stack & Libraries
 
