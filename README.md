@@ -30,3 +30,28 @@ Bio-Eval-LLM/
 ├── .gitignore                     # Git tracking exclusions
 ├── requirements.txt               # Dependencies (pandas, scikit-learn, etc.)
 └── README.md                      # Project documentation
+
+## Technical Stack & Libraries
+
+* **Core Language:** Python 3.10+
+* **Data Processing & Analytics:** `pandas`, `NumPy`
+* **Machine Learning & NLP Metrics:** `scikit-learn` (TfidfVectorizer, Cosine Similarity)
+* **Development Environment:** GitHub / Jupyter Notebook
+
+---
+
+## Quickstart & Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/stephfn/Bio-Eval-LLM.git](https://github.com/stephfn/Bio-Eval-LLM.git)
+   cd Bio-Eval-LLM
+
+---
+
+## Author
+
+**Stephanie Nord**  
+*M.S. in Data Science | B.S. in Biology*  
+*Specializing in Computational Biology, High-Throughput Molecular Diagnostics, and Machine Learning*  
+[LinkedIn](https://www.linkedin.com/in/stephanienord) | [GitHub](https://github.com/stephfn)
